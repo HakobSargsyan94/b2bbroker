@@ -1,0 +1,4 @@
+RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
+ErrorDocument 404 /error/404.html
+RewriteCond %{https} off
+RewriteRule ^(.*)$ http://usa.loc/$1 [R=301,L]

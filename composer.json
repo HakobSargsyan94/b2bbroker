@@ -1,0 +1,17 @@
+{
+    "name": "b2broker/b2broker",
+    "autoload": {
+        "psr-4": {
+            "B2broker\\B2broker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hakob"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-json": "*"
+    }
+}
